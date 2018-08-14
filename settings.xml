@@ -250,26 +250,26 @@ under the License.
     </profile>
     -->
 
-  <profile>
-      <id>nexus</id>
-      <!--Enable snapshots for the built in central repo to direct -->
-      <!--all requests to nexus via the mirror -->
-      <repositories>
-        <repository>
-          <id>maven-releases</id>
-          <name>Releases</name>
-          <url>http://192.168.152.130:8081/repository/maven-releases</url>
-        </repository>
-      </repositories>
-     <pluginRepositories>
-        <pluginRepository>
-          <id>central</id>
-          <url>http://central</url>
-          <releases><enabled>true</enabled></releases>
-          <snapshots><enabled>true</enabled></snapshots>
-        </pluginRepository>
-      </pluginRepositories>
-    </profile>
+  <!--<profile>-->
+      <!--<id>nexus</id>-->
+      <!--&lt;!&ndash;Enable snapshots for the built in central repo to direct &ndash;&gt;-->
+      <!--&lt;!&ndash;all requests to nexus via the mirror &ndash;&gt;-->
+      <!--<repositories>-->
+        <!--<repository>-->
+          <!--<id>maven-releases</id>-->
+          <!--<name>Releases</name>-->
+          <!--<url>http://192.168.152.130:8081/repository/maven-releases</url>-->
+        <!--</repository>-->
+      <!--</repositories>-->
+     <!--<pluginRepositories>-->
+        <!--<pluginRepository>-->
+          <!--<id>central</id>-->
+          <!--<url>http://central</url>-->
+          <!--<releases><enabled>true</enabled></releases>-->
+          <!--<snapshots><enabled>true</enabled></snapshots>-->
+        <!--</pluginRepository>-->
+      <!--</pluginRepositories>-->
+    <!--</profile>-->
 
     <profile>
       <id>sonar</id>
